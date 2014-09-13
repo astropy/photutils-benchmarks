@@ -176,6 +176,8 @@ class parametrize:
 @parametrize(COMBINATIONS)
 class AperturePhotometry:
 
+    timeout = 120.0
+
     @staticmethod
     def do_test(data_shape=None, apertures=None, method=None,
                 subpixels=None, error=None):

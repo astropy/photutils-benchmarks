@@ -1,0 +1,2403 @@
+{
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_big_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_multiple_small_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_big_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_error_single_small_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_big_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_multiple_small_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_big_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_big_data_single_small_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_multiple_small_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_error_single_small_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_multiple_small_apertures_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_circ_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_ann_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_center": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_center",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_exact": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_exact",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_01": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_01",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_05": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_05",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_10": {
+        "code": "setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))\n",
+        "goal_time": 2.0,
+        "name": "benchmarks.AperturePhotometry.time_small_data_single_small_aperture_elli_subpixel_10",
+        "number": 0,
+        "repeat": 3,
+        "timeout": 120.0,
+        "type": "time",
+        "unit": "seconds"
+    },
+    "version": 1
+}

@@ -1,0 +1,8 @@
+{
+    "arch": "x86_64",
+    "cpu": "Intel(R) Core(TM) i7-3840QM CPU @ 2.80GHz",
+    "machine": "tom-laptop",
+    "os": "MacOS X 10.8",
+    "ram": 17179869184,
+    "version": 1
+}
