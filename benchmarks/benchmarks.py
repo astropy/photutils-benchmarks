@@ -1,6 +1,5 @@
 import numpy as np
 
-from functools import partial
 from photutils import (aperture_photometry,
                        CircularAperture, CircularAnnulus,
                        EllipticalAperture, EllipticalAnnulus)
@@ -11,6 +10,128 @@ CLASSES['circ'] = CircularAperture
 CLASSES['circ_ann'] = CircularAnnulus
 CLASSES['elli'] = EllipticalAperture
 CLASSES['elli_ann'] = EllipticalAnnulus
+
+COMBINATIONS = {}
+
+name = "Small data, single small aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (20, 20)
+c['pos']      = (10., 10.)
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = False
+
+name = "Small data, error, single small aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (20, 20)
+c['pos']      = (10., 10.)
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = True
+
+name = "Big data, single small aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (500., 500.)
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = False
+
+name = "Big data, error, single small aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (500., 500.)
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = True
+
+name = "Big data, single big aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (500., 500.)
+c['circ']     = (50.,)
+c['circ_ann'] = (50., 60.)
+c['elli']     = (50., 20., 0.5)
+c['elli_ann'] = (20., 50., 40., 0.5)
+c['error'] = False
+
+name = "Big data, error, single big aperture"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (500., 500.)
+c['circ']     = (50.,)
+c['circ_ann'] = (50., 60.)
+c['elli']     = (50., 20., 0.5)
+c['elli_ann'] = (20., 50., 40., 0.5)
+c['error'] = True
+
+name = "Small data, multiple small apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (20, 20)
+c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = False
+
+name = "Small data, error, multiple small apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (20, 20)
+c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = True
+
+name = "Big data, multiple small apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = False
+
+name = "Big data, error, multiple small apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
+c['circ']     = (5.,)
+c['circ_ann'] = (5., 6.)
+c['elli']     = (5., 2., 0.5)
+c['elli_ann'] = (2., 5., 4., 0.5)
+c['error'] = True
+
+name = "Big data, multiple big apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['circ']     = (50.,)
+c['circ_ann'] = (50., 60.)
+c['elli']     = (50., 20., 0.5)
+c['elli_ann'] = (20., 50., 40., 0.5)
+c['error'] = False
+
+name = "Big data, error, multiple big apertures"
+c = COMBINATIONS[name] = {}
+c['dims']     = (1000, 1000)
+c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['circ']     = (50.,)
+c['circ_ann'] = (50., 60.)
+c['elli']     = (50., 20., 0.5)
+c['elli_ann'] = (20., 50., 40., 0.5)
+c['error'] = True
 
 
 class parametrize:
@@ -46,168 +167,9 @@ class parametrize:
                     if method == 'subpixel':
                         method_name = method_name + "_{0:02d}".format(subpixels)
 
-                    setattr(cls, method_name, staticmethod(partial(cls.do_test, **parameters)))
+                    setattr(cls, method_name, lambda x: cls.do_test(**parameters))
 
         return cls
-
-
-COMBINATIONS = {}
-
-name = "Small data, single small aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (10., 10.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1000
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = False
-
-name = "Small data, error, single small aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (10., 10.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1000
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = True
-
-name = "Big data, single small aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (500., 500.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1000
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = False
-
-name = "Big data, error, single small aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (500., 500.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1000
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = True
-
-name = "Big data, single big aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (500., 500.)
-c['circ']     = (50.,)
-c['circ_ann'] = (50., 60.)
-c['elli']     = (50., 20., 0.5)
-c['elli_ann'] = (20., 50., 40., 0.5)
-c['iter']     = 10
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = False
-
-name = "Big data, error, single big aperture"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (500., 500.)
-c['circ']     = (50.,)
-c['circ_ann'] = (50., 60.)
-c['elli']     = (50., 20., 0.5)
-c['elli_ann'] = (20., 50., 40., 0.5)
-c['iter']     = 10
-c['multiap']  = False
-c['multipos'] = False
-c['error'] = True
-
-name = "Small data, multiple small apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = False
-
-name = "Small data, error, multiple small apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = True
-
-name = "Big data, multiple small apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = False
-
-name = "Big data, error, multiple small apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = True
-
-name = "Big data, multiple big apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
-c['circ']     = (50.,)
-c['circ_ann'] = (50., 60.)
-c['elli']     = (50., 20., 0.5)
-c['elli_ann'] = (20., 50., 40., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = False
-
-name = "Big data, error, multiple big apertures"
-c = COMBINATIONS[name] = {}
-c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
-c['circ']     = (50.,)
-c['circ_ann'] = (50., 60.)
-c['elli']     = (50., 20., 0.5)
-c['elli_ann'] = (20., 50., 40., 0.5)
-c['iter']     = 1
-c['multiap']  = False
-c['multipos'] = True
-c['error'] = True
 
 
 @parametrize(COMBINATIONS)
