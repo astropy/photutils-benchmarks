@@ -6,9 +6,7 @@ from photutils import aperture_photometry, CircularAperture
 class AperturePhotometry:
 
     def setup(self):
-        self.d = {}
-        for x in range(500):
-            self.d[x] = None
+        self.positions = np.random.uniform(0., 20., 2000).reshape((1000, 2))
 
     def do_test(self, data_shape=None, apertures=None, method=None,
                 subpixels=None, error=None):
@@ -28,7 +26,7 @@ class AperturePhotometry:
         Small data, single small aperture
         """
         self.do_test(data_shape=(20, 20),
-                     apertures=CircularAperture((10, 10), 5),
+                     apertures=CircularAperture(self.positions, 5),
                      method='center',
                      error=False)
 
@@ -37,7 +35,7 @@ class AperturePhotometry:
         Small data, single small aperture
         """
         self.do_test(data_shape=(20, 20),
-                     apertures=CircularAperture((10, 10), 5),
+                     apertures=CircularAperture(self.positions, 5),
                      method='subpixel', subpixels=1,
                      error=False)
 
@@ -46,7 +44,7 @@ class AperturePhotometry:
         Small data, single small aperture
         """
         self.do_test(data_shape=(20, 20),
-                     apertures=CircularAperture((10, 10), 5),
+                     apertures=CircularAperture(self.positions, 5),
                      method='subpixel', subpixels=5,
                      error=False)
 
@@ -55,7 +53,7 @@ class AperturePhotometry:
         Small data, single small aperture
         """
         self.do_test(data_shape=(20, 20),
-                     apertures=CircularAperture((10, 10), 5),
+                     apertures=CircularAperture(self.positions, 5),
                      method='subpixel', subpixels=10,
                      error=False)
 
@@ -64,7 +62,7 @@ class AperturePhotometry:
         Small data, single small aperture
         """
         self.do_test(data_shape=(20, 20),
-                     apertures=CircularAperture((10, 10), 5),
+                     apertures=CircularAperture(self.positions, 5),
                      method='exact',
                      error=False)
 
