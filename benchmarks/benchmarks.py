@@ -13,7 +13,7 @@ CLASSES['elli'] = EllipticalAperture
 CLASSES['elli_ann'] = EllipticalAnnulus
 
 
-class parametrize(object):
+class parametrize:
 
     def __init__(self, combinations):
         self.combinations = combinations
@@ -24,11 +24,6 @@ class parametrize(object):
 
             comb = self.combinations[key]
             name = key.lower().replace(',','').replace(' ', '_')
-
-            if comb['error'] is True:
-                error = np.ones(comb['dims'])
-            else:
-                error = None
 
             for aper in ['circ', 'circ_ann', 'elli', 'elli_ann']:
 
@@ -41,18 +36,18 @@ class parametrize(object):
 
                     parameters = {}
                     parameters['data_shape'] = comb['dims']
-                    print(key, comb[aper])
                     parameters['apertures'] = CLASSES[aper](comb['pos'], *comb[aper])
                     parameters['method'] = method
                     parameters['subpixels'] = subpixels
-                    parameters['error'] = error
+                    parameters['error'] = comb['error']
 
                     method_name = "time_" + name + "_" + aper + "_" + method
 
                     if method == 'subpixel':
                         method_name = method_name + "_{0:02d}".format(subpixels)
 
-                    setattr(cls, method_name, partial(cls.do_test, **parameters))
+                    setattr(cls, method_name, staticmethod(partial(cls.do_test, **parameters)))
+
         return cls
 
 
@@ -218,10 +213,8 @@ c['error'] = True
 @parametrize(COMBINATIONS)
 class AperturePhotometry:
 
-    def setup(self):
-        self.positions = np.random.uniform(0., 20., 2000).reshape((1000, 2))
-
-    def do_test(self, data_shape=None, apertures=None, method=None,
+    @staticmethod
+    def do_test(data_shape=None, apertures=None, method=None,
                 subpixels=None, error=None):
 
         data = np.ones(data_shape)
