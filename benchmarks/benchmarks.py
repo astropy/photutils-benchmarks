@@ -141,7 +141,7 @@ class parametrize:
 
     def __call__(self, cls):
 
-        for key in self.combinations:
+        for key in sorted(self.combinations.keys()):
 
             comb = self.combinations[key]
             name = key.lower().replace(',','').replace(' ', '_')
@@ -167,7 +167,8 @@ class parametrize:
                     if method == 'subpixel':
                         method_name = method_name + "_{0:02d}".format(subpixels)
 
-                    setattr(cls, method_name, lambda x: cls.do_test(**parameters))
+                    # The par=parameters is to force closure
+                    setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))
 
         return cls
 
