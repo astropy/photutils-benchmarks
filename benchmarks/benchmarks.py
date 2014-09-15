@@ -76,7 +76,7 @@ c['error'] = True
 name = "Small data, multiple small apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
+c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -86,7 +86,7 @@ c['error'] = False
 name = "Small data, error, multiple small apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 1000), np.random.uniform(5., 15., 1000)))
+c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -96,7 +96,7 @@ c['error'] = True
 name = "Big data, multiple small apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
+c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -106,7 +106,7 @@ c['error'] = False
 name = "Big data, error, multiple small apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 1000), np.random.uniform(250., 750., 1000)))
+c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -116,7 +116,7 @@ c['error'] = True
 name = "Big data, multiple big apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
 c['circ']     = (50.,)
 c['circ_ann'] = (50., 60.)
 c['elli']     = (50., 20., 0.5)
@@ -126,7 +126,7 @@ c['error'] = False
 name = "Big data, error, multiple big apertures"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
 c['circ']     = (50.,)
 c['circ_ann'] = (50., 60.)
 c['elli']     = (50., 20., 0.5)
