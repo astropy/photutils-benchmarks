@@ -13,7 +13,7 @@ CLASSES['elli_ann'] = EllipticalAnnulus
 
 COMBINATIONS = {}
 
-name = "Small data, single small aperture"
+name = "sm_data, sing_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
 c['pos']      = (10., 10.)
@@ -23,7 +23,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "Small data, error, single small aperture"
+name = "sm_data, err, sing_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
 c['pos']      = (10., 10.)
@@ -33,7 +33,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "Big data, single small aperture"
+name = "bg_data, sing_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -43,7 +43,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "Big data, error, single small aperture"
+name = "bg_data, err, sing_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -53,7 +53,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "Big data, single big aperture"
+name = "bg_data, sing_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -63,7 +63,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = False
 
-name = "Big data, error, single big aperture"
+name = "bg_data, err, sing_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -73,7 +73,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = True
 
-name = "Small data, multiple small apertures"
+name = "sm_data, mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
 c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
@@ -83,7 +83,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "Small data, error, multiple small apertures"
+name = "sm_data, err, mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (20, 20)
 c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
@@ -93,7 +93,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "Big data, multiple small apertures"
+name = "bg_data, mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
@@ -103,7 +103,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "Big data, error, multiple small apertures"
+name = "bg_data, err, mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
@@ -113,7 +113,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "Big data, multiple big apertures"
+name = "bg_data, mult_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
@@ -123,7 +123,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = False
 
-name = "Big data, error, multiple big apertures"
+name = "bg_data, err, mult_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
@@ -136,8 +136,9 @@ c['error'] = True
 
 class parametrize:
 
-    def __init__(self, combinations):
+    def __init__(self, combinations, aperture_type):
         self.combinations = combinations
+        self.aperture_type = aperture_type
 
     def __call__(self, cls):
 
@@ -146,35 +147,32 @@ class parametrize:
             comb = self.combinations[key]
             name = key.lower().replace(',','').replace(' ', '_')
 
-            for aper in ['circ', 'circ_ann', 'elli', 'elli_ann']:
+            for method in ['center', ('subpixel',1), ('subpixel',5), ('subpixel',10), 'exact']:
 
-                for method in ['center', ('subpixel',1), ('subpixel',5), ('subpixel',10), 'exact']:
+                if isinstance(method, tuple):
+                    method, subpixels = method
+                else:
+                    subpixels = 1
 
-                    if isinstance(method, tuple):
-                        method, subpixels = method
-                    else:
-                        subpixels = 1
+                parameters = {}
+                parameters['data_shape'] = comb['dims']
+                parameters['apertures'] = CLASSES[self.aperture_type](comb['pos'], *comb[self.aperture_type])
+                parameters['method'] = method
+                parameters['subpixels'] = subpixels
+                parameters['error'] = comb['error']
 
-                    parameters = {}
-                    parameters['data_shape'] = comb['dims']
-                    parameters['apertures'] = CLASSES[aper](comb['pos'], *comb[aper])
-                    parameters['method'] = method
-                    parameters['subpixels'] = subpixels
-                    parameters['error'] = comb['error']
+                method_name = "time_" + name + "_" + method
 
-                    method_name = "time_" + name + "_" + aper + "_" + method
+                if method == 'subpixel':
+                    method_name = method_name + "_{0:02d}".format(subpixels)
 
-                    if method == 'subpixel':
-                        method_name = method_name + "_{0:02d}".format(subpixels)
-
-                    # The par=parameters is to force closure
-                    setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))
+                # The par=parameters is to force closure
+                setattr(cls, method_name, lambda self, par=parameters: cls.do_test(**par))
 
         return cls
 
 
-@parametrize(COMBINATIONS)
-class AperturePhotometry:
+class BaseAperturePhotometry:
 
     timeout = 120.0
 
@@ -191,3 +189,20 @@ class AperturePhotometry:
 
         aperture_photometry(data, apertures, method=method, error=error,
                             subpixels=subpixels)
+
+
+@parametrize(COMBINATIONS, 'circ')
+class CircularAperturePhotometry(BaseAperturePhotometry):
+    pass
+
+@parametrize(COMBINATIONS, 'circ_ann')
+class CircularAnnulusPhotometry(BaseAperturePhotometry):
+    pass
+
+@parametrize(COMBINATIONS, 'elli')
+class EllipticalAperturePhotometry(BaseAperturePhotometry):
+    pass
+
+@parametrize(COMBINATIONS, 'elli_ann')
+class EllipticalAnnulusPhotometry(BaseAperturePhotometry):
+    pass
