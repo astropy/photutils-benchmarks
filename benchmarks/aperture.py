@@ -13,27 +13,7 @@ CLASSES['elli_ann'] = EllipticalAnnulus
 
 COMBINATIONS = {}
 
-name = "sm_data, sing_sm_ap"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (10., 10.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['error'] = False
-
-name = "sm_data, err, sing_sm_ap"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (10., 10.)
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['error'] = True
-
-name = "bg_data, sing_sm_ap"
+name = "sing_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -43,7 +23,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "bg_data, err, sing_sm_ap"
+name = "sing_sm_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -53,7 +33,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "bg_data, sing_bg_ap"
+name = "sing_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -63,7 +43,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = False
 
-name = "bg_data, err, sing_bg_ap"
+name = "sing_bg_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (500., 500.)
@@ -73,27 +53,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = True
 
-name = "sm_data, mult_sm_ap"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['error'] = False
-
-name = "sm_data, err, mult_sm_ap"
-c = COMBINATIONS[name] = {}
-c['dims']     = (20, 20)
-c['pos']      = (zip(np.random.uniform(5., 15., 100), np.random.uniform(5., 15., 100)))
-c['circ']     = (5.,)
-c['circ_ann'] = (5., 6.)
-c['elli']     = (5., 2., 0.5)
-c['elli_ann'] = (2., 5., 4., 0.5)
-c['error'] = True
-
-name = "bg_data, mult_sm_ap"
+name = "mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
@@ -103,7 +63,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = False
 
-name = "bg_data, err, mult_sm_ap"
+name = "mult_sm_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
@@ -113,7 +73,7 @@ c['elli']     = (5., 2., 0.5)
 c['elli_ann'] = (2., 5., 4., 0.5)
 c['error'] = True
 
-name = "bg_data, mult_bg_ap"
+name = "mult_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
@@ -123,7 +83,7 @@ c['elli']     = (50., 20., 0.5)
 c['elli_ann'] = (20., 50., 40., 0.5)
 c['error'] = False
 
-name = "bg_data, err, mult_bg_ap"
+name = "mult_bg_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
 c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
@@ -147,7 +107,7 @@ class parametrize:
             comb = self.combinations[key]
             name = key.lower().replace(',','').replace(' ', '_')
 
-            for method in ['center', ('subpixel',1), ('subpixel',5), ('subpixel',10), 'exact']:
+            for method in [('subpixel',1), ('subpixel',5), 'exact']:
 
                 if isinstance(method, tuple):
                     method, subpixels = method
