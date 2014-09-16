@@ -1,6 +1,6 @@
 {
-    "commit_hash": "45d90e0e049fde76edf8f64d3a86895d7493d9eb", 
-    "date": 1409851078000, 
+    "commit_hash": "21010e8aec09862f3c0164e9a66d228c187422d9", 
+    "date": 1408645022000, 
     "params": {
         "Cython": null, 
         "arch": "x86_64", 
