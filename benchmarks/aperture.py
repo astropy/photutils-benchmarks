@@ -56,7 +56,7 @@ c['error'] = True
 name = "mult_sm_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['pos']      = (list(zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100))))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -66,7 +66,7 @@ c['error'] = False
 name = "mult_sm_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100)))
+c['pos']      = (list(zip(np.random.uniform(250., 750., 100), np.random.uniform(250., 750., 100))))
 c['circ']     = (5.,)
 c['circ_ann'] = (5., 6.)
 c['elli']     = (5., 2., 0.5)
@@ -76,7 +76,7 @@ c['error'] = True
 name = "mult_bg_ap"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
+c['pos']      = (list(zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10))))
 c['circ']     = (50.,)
 c['circ_ann'] = (50., 60.)
 c['elli']     = (50., 20., 0.5)
@@ -86,7 +86,7 @@ c['error'] = False
 name = "mult_bg_ap_err"
 c = COMBINATIONS[name] = {}
 c['dims']     = (1000, 1000)
-c['pos']      = (zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10)))
+c['pos']      = (list(zip(np.random.uniform(250., 750., 10), np.random.uniform(250., 750., 10))))
 c['circ']     = (50.,)
 c['circ_ann'] = (50., 60.)
 c['elli']     = (50., 20., 0.5)
