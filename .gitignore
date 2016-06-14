@@ -1,0 +1,5 @@
+photutils
+env
+html
+*.pyc
+.idea
