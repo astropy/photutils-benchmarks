@@ -8,20 +8,23 @@
   ],
   "show_commit_url": "http://github.com/astropy/photutils/commit/",
   "pythons": [
-    "2.7"
+    "3.8"
+  ],
+  "conda_channels": [
+    "conda-forge",
+    "defaults"
   ],
   "matrix": {
-    "numpy": [
-      "1.8"
-    ],
-    "Cython": [],
-    "astropy": [
-      "0.4.1"
-    ]
+    "req": {
+      "numpy": [
+        "1.8"
+      ],
+      "Cython": [],
+      "astropy": [
+        "0.4.1"
+      ]
+    }
   },
-  "benchmark_dir": "benchmarks",
-  "env_dir": "env",
-  "results_dir": "results",
-  "html_dir": "html",
+  "environment_type": "conda",
   "hash_length": 8
 }
