@@ -3,12 +3,18 @@
   "project": "photutils",
   "project_url": "http://photutils.readthedocs.org",
   "repo": "https://github.com/astropy/photutils.git",
+  "install_command": [
+    "pip install ."
+  ],
+  "build_command": [
+    "pip install ."
+  ],
   "branches": [
     "main"
   ],
   "show_commit_url": "http://github.com/astropy/photutils/commit/",
   "pythons": [
-    "3.8"
+    "3.11"
   ],
   "conda_channels": [
     "conda-forge",
@@ -16,13 +22,9 @@
   ],
   "matrix": {
     "req": {
-      "numpy": [
-        "1.8"
-      ],
+      "numpy": [],
       "Cython": [],
-      "astropy": [
-        "0.4.1"
-      ]
+      "astropy": []
     }
   },
   "environment_type": "conda",
