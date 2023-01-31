@@ -28,5 +28,6 @@
     }
   },
   "environment_type": "conda",
-  "hash_length": 8
+  "hash_length": 8,
+  "results_dir": "../../results/photutils-benchmarks"
 }
