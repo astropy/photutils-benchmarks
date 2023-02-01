@@ -16,10 +16,6 @@
   "pythons": [
     "3.11"
   ],
-  "conda_channels": [
-    "conda-forge",
-    "defaults"
-  ],
   "matrix": {
     "req": {
       "numpy": [],
@@ -27,7 +23,5 @@
       "astropy": []
     }
   },
-  "environment_type": "conda",
-  "hash_length": 8,
-  "results_dir": "../../results/photutils-benchmarks"
+  "hash_length": 8
 }
