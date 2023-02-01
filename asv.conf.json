@@ -16,6 +16,10 @@
   "pythons": [
     "3.11"
   ],
+  "conda_channels": [
+    "conda-forge",
+    "defaults"
+  ],
   "matrix": {
     "req": {
       "numpy": [],
@@ -23,6 +27,6 @@
       "astropy": []
     }
   },
-  "environment_type": "virtualenv",
+  "environment_type": "conda",
   "hash_length": 8
 }
