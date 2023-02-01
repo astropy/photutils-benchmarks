@@ -23,5 +23,6 @@
       "astropy": []
     }
   },
+  "environment_type": "virtualenv",
   "hash_length": 8
 }
