@@ -14,7 +14,6 @@
   ],
   "show_commit_url": "http://github.com/astropy/photutils/commit/",
   "pythons": [
-    "3.8",
     "3.11"
   ],
   "conda_channels": [
