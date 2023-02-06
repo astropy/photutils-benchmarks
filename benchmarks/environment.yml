@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - astropy
+  - Cython
+  - numpy
+  - pip
+  - wheel
